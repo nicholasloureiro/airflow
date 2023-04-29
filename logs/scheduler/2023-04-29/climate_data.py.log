@@ -1294,3 +1294,17 @@ SyntaxError: closing parenthesis ')' does not match opening parenthesis '{' on l
 [2023-04-29T16:15:33.771-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:15:33.771-0300] {dag.py:2693} INFO - Sync 1 DAGs
 [2023-04-29T16:15:33.785-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:15:33.785-0300] {dag.py:3440} INFO - Setting next_dagrun for climate_dag to 2023-04-24T00:00:00+00:00, run_after=2023-05-01T00:00:00+00:00
 [2023-04-29T16:15:33.805-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/climate_data.py took 0.186 seconds
+[2023-04-29T16:16:16.195-0300] {processor.py:153} INFO - Started process (PID=26313) to work on /home/nicholas10/airflow/dags/climate_data.py
+[2023-04-29T16:16:16.202-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dags/climate_data.py for tasks to queue
+[2023-04-29T16:16:16.203-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:16:16.203-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dags/climate_data.py
+[2023-04-29T16:16:16.338-0300] {processor.py:753} INFO - DAG(s) dict_keys(['climate_dag']) retrieved from /home/nicholas10/airflow/dags/climate_data.py
+[2023-04-29T16:16:16.350-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:16:16.350-0300] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-29T16:16:16.365-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:16:16.365-0300] {dag.py:3440} INFO - Setting next_dagrun for climate_dag to 2023-04-24T00:00:00+00:00, run_after=2023-05-01T00:00:00+00:00
+[2023-04-29T16:16:16.385-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/climate_data.py took 0.193 seconds
+[2023-04-29T16:17:00.454-0300] {processor.py:153} INFO - Started process (PID=26388) to work on /home/nicholas10/airflow/dags/climate_data.py
+[2023-04-29T16:17:00.461-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dags/climate_data.py for tasks to queue
+[2023-04-29T16:17:00.462-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:17:00.462-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dags/climate_data.py
+[2023-04-29T16:17:00.592-0300] {processor.py:753} INFO - DAG(s) dict_keys(['climate_dag']) retrieved from /home/nicholas10/airflow/dags/climate_data.py
+[2023-04-29T16:17:00.604-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:17:00.604-0300] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-29T16:17:00.618-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:17:00.618-0300] {dag.py:3440} INFO - Setting next_dagrun for climate_dag to 2023-04-24T00:00:00+00:00, run_after=2023-05-01T00:00:00+00:00
+[2023-04-29T16:17:00.639-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/climate_data.py took 0.187 seconds

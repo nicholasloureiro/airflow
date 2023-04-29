@@ -913,3 +913,13 @@
 [2023-04-29T16:15:30.767-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:15:30.767-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
 [2023-04-29T16:15:30.769-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
 [2023-04-29T16:15:30.777-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.012 seconds
+[2023-04-29T16:16:13.928-0300] {processor.py:153} INFO - Started process (PID=26307) to work on /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-29T16:16:13.935-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-04-29T16:16:13.936-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:16:13.936-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-29T16:16:13.937-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-29T16:16:13.944-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2023-04-29T16:16:56.298-0300] {processor.py:153} INFO - Started process (PID=26380) to work on /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-29T16:16:56.305-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-04-29T16:16:56.305-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:16:56.305-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-29T16:16:56.307-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-04-29T16:16:56.313-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
