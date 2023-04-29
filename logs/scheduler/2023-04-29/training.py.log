@@ -1543,3 +1543,52 @@ SyntaxError: invalid syntax
 [2023-04-29T16:20:06.622-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:20:06.622-0300] {dag.py:2693} INFO - Sync 1 DAGs
 [2023-04-29T16:20:06.637-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:20:06.636-0300] {dag.py:3440} INFO - Setting next_dagrun for train to 2023-04-29T00:00:00+00:00, run_after=2023-04-30T00:00:00+00:00
 [2023-04-29T16:20:06.652-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/training.py took 0.066 seconds
+[2023-04-29T16:20:37.910-0300] {processor.py:153} INFO - Started process (PID=27931) to work on /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:20:37.917-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dags/training.py for tasks to queue
+[2023-04-29T16:20:37.918-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:20:37.918-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:20:37.929-0300] {processor.py:753} INFO - DAG(s) dict_keys(['train']) retrieved from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:20:37.942-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:20:37.942-0300] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-29T16:20:37.956-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:20:37.956-0300] {dag.py:3440} INFO - Setting next_dagrun for train to 2023-04-29T00:00:00+00:00, run_after=2023-04-30T00:00:00+00:00
+[2023-04-29T16:20:37.970-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/training.py took 0.062 seconds
+[2023-04-29T16:21:08.345-0300] {processor.py:153} INFO - Started process (PID=28073) to work on /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:21:08.352-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dags/training.py for tasks to queue
+[2023-04-29T16:21:08.353-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:21:08.353-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:21:08.365-0300] {processor.py:753} INFO - DAG(s) dict_keys(['train']) retrieved from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:21:08.378-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:21:08.378-0300] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-29T16:21:08.393-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:21:08.393-0300] {dag.py:3440} INFO - Setting next_dagrun for train to 2023-04-29T00:00:00+00:00, run_after=2023-04-30T00:00:00+00:00
+[2023-04-29T16:21:08.407-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/training.py took 0.063 seconds
+[2023-04-29T16:21:40.959-0300] {processor.py:153} INFO - Started process (PID=28154) to work on /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:21:40.966-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dags/training.py for tasks to queue
+[2023-04-29T16:21:40.967-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:21:40.967-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:21:40.982-0300] {processor.py:753} INFO - DAG(s) dict_keys(['train']) retrieved from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:21:40.997-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:21:40.997-0300] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-29T16:21:41.012-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:21:41.011-0300] {dag.py:3440} INFO - Setting next_dagrun for train to 2023-04-29T00:00:00+00:00, run_after=2023-04-30T00:00:00+00:00
+[2023-04-29T16:21:41.026-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/training.py took 0.069 seconds
+[2023-04-29T16:22:12.710-0300] {processor.py:153} INFO - Started process (PID=28291) to work on /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:22:12.717-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dags/training.py for tasks to queue
+[2023-04-29T16:22:12.718-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:22:12.718-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:22:12.729-0300] {processor.py:753} INFO - DAG(s) dict_keys(['train']) retrieved from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:22:12.743-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:22:12.742-0300] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-29T16:22:12.757-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:22:12.757-0300] {dag.py:3440} INFO - Setting next_dagrun for train to 2023-04-29T00:00:00+00:00, run_after=2023-04-30T00:00:00+00:00
+[2023-04-29T16:22:12.771-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/training.py took 0.063 seconds
+[2023-04-29T16:22:45.340-0300] {processor.py:153} INFO - Started process (PID=28382) to work on /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:22:45.347-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dags/training.py for tasks to queue
+[2023-04-29T16:22:45.348-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:22:45.348-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:22:45.359-0300] {processor.py:753} INFO - DAG(s) dict_keys(['train']) retrieved from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:22:45.373-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:22:45.372-0300] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-29T16:22:45.389-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:22:45.389-0300] {dag.py:3440} INFO - Setting next_dagrun for train to 2023-04-29T00:00:00+00:00, run_after=2023-04-30T00:00:00+00:00
+[2023-04-29T16:22:45.405-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/training.py took 0.067 seconds
+[2023-04-29T16:23:28.070-0300] {processor.py:153} INFO - Started process (PID=28504) to work on /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:23:28.077-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dags/training.py for tasks to queue
+[2023-04-29T16:23:28.078-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:23:28.078-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:23:28.089-0300] {processor.py:753} INFO - DAG(s) dict_keys(['train']) retrieved from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:23:28.102-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:23:28.101-0300] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-29T16:23:28.115-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:23:28.115-0300] {dag.py:3440} INFO - Setting next_dagrun for train to 2023-04-29T00:00:00+00:00, run_after=2023-04-30T00:00:00+00:00
+[2023-04-29T16:23:28.131-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/training.py took 0.063 seconds
+[2023-04-29T16:24:08.942-0300] {processor.py:153} INFO - Started process (PID=28704) to work on /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:24:08.949-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dags/training.py for tasks to queue
+[2023-04-29T16:24:08.950-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:24:08.949-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:24:08.961-0300] {processor.py:753} INFO - DAG(s) dict_keys(['train']) retrieved from /home/nicholas10/airflow/dags/training.py
+[2023-04-29T16:24:08.974-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:24:08.973-0300] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-29T16:24:08.987-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:24:08.987-0300] {dag.py:3440} INFO - Setting next_dagrun for train to 2023-04-29T00:00:00+00:00, run_after=2023-04-30T00:00:00+00:00
+[2023-04-29T16:24:09.001-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dags/training.py took 0.061 seconds
