@@ -1,0 +1,108 @@
+[2023-04-29T15:35:32.311-0300] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2023-04-29T15:35:32.316-0300] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2023-04-29T15:35:32.316-0300] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-29T15:35:32.316-0300] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-29T15:35:32.316-0300] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-29T15:35:32.325-0300] {taskinstance.py:1303} INFO - Executing <Task(BashOperator): mkdir> on 2023-04-17 00:00:00+00:00
+[2023-04-29T15:35:32.329-0300] {standard_task_runner.py:55} INFO - Started process 20756 to run task
+[2023-04-29T15:35:32.332-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'climate_dag', 'mkdir', 'scheduled__2023-04-17T00:00:00+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/climate_data.py', '--cfg-path', '/tmp/tmp1uhqavwv']
+[2023-04-29T15:35:32.333-0300] {standard_task_runner.py:83} INFO - Job 76: Subtask mkdir
+[2023-04-29T15:35:32.362-0300] {task_command.py:388} INFO - Running <TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [running]> on host nicholas10-ThinkPad-E14-Gen-3
+[2023-04-29T15:35:32.397-0300] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=climate_dag
+AIRFLOW_CTX_TASK_ID=mkdir
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-17T00:00:00+00:00
+[2023-04-29T15:35:32.398-0300] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-04-29T15:35:32.398-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p "/home/nicholas10/airflow/week=2023-04-24"']
+[2023-04-29T15:35:32.409-0300] {subprocess.py:86} INFO - Output:
+[2023-04-29T15:35:32.411-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-04-29T15:35:32.436-0300] {taskinstance.py:1321} INFO - Marking task as SUCCESS. dag_id=climate_dag, task_id=mkdir, execution_date=20230417T000000, start_date=20230429T183532, end_date=20230429T183532
+[2023-04-29T15:35:32.463-0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-29T15:35:32.474-0300] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-04-29T15:39:37.161-0300] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2023-04-29T15:39:37.167-0300] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2023-04-29T15:39:37.168-0300] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-29T15:39:37.168-0300] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-29T15:39:37.168-0300] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-29T15:39:37.176-0300] {taskinstance.py:1303} INFO - Executing <Task(BashOperator): mkdir> on 2023-04-17 00:00:00+00:00
+[2023-04-29T15:39:37.179-0300] {standard_task_runner.py:55} INFO - Started process 21307 to run task
+[2023-04-29T15:39:37.183-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'climate_dag', 'mkdir', 'scheduled__2023-04-17T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/climate_data.py', '--cfg-path', '/tmp/tmpe51up88t']
+[2023-04-29T15:39:37.184-0300] {standard_task_runner.py:83} INFO - Job 15: Subtask mkdir
+[2023-04-29T15:39:37.213-0300] {task_command.py:388} INFO - Running <TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [running]> on host nicholas10-ThinkPad-E14-Gen-3
+[2023-04-29T15:39:37.247-0300] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=climate_dag
+AIRFLOW_CTX_TASK_ID=mkdir
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-17T00:00:00+00:00
+[2023-04-29T15:39:37.248-0300] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-04-29T15:39:37.248-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p "/home/nicholas10/airflow/week=2023-04-24"']
+[2023-04-29T15:39:37.257-0300] {subprocess.py:86} INFO - Output:
+[2023-04-29T15:39:37.258-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-04-29T15:39:37.270-0300] {taskinstance.py:1321} INFO - Marking task as SUCCESS. dag_id=climate_dag, task_id=mkdir, execution_date=20230417T000000, start_date=20230429T183937, end_date=20230429T183937
+[2023-04-29T15:39:37.314-0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-29T15:39:37.325-0300] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-04-29T15:45:21.675-0300] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2023-04-29T15:45:21.680-0300] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2023-04-29T15:45:21.680-0300] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-29T15:45:21.680-0300] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-29T15:45:21.680-0300] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-29T15:45:21.689-0300] {taskinstance.py:1303} INFO - Executing <Task(BashOperator): mkdir> on 2023-04-17 00:00:00+00:00
+[2023-04-29T15:45:21.692-0300] {standard_task_runner.py:55} INFO - Started process 21865 to run task
+[2023-04-29T15:45:21.695-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'climate_dag', 'mkdir', 'scheduled__2023-04-17T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/climate_data.py', '--cfg-path', '/tmp/tmp0pt1vu5y']
+[2023-04-29T15:45:21.696-0300] {standard_task_runner.py:83} INFO - Job 15: Subtask mkdir
+[2023-04-29T15:45:21.724-0300] {task_command.py:388} INFO - Running <TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [running]> on host nicholas10-ThinkPad-E14-Gen-3
+[2023-04-29T15:45:21.756-0300] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=climate_dag
+AIRFLOW_CTX_TASK_ID=mkdir
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-17T00:00:00+00:00
+[2023-04-29T15:45:21.757-0300] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-04-29T15:45:21.757-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p "/home/nicholas10/airflow/week=2023-04-24"']
+[2023-04-29T15:45:21.766-0300] {subprocess.py:86} INFO - Output:
+[2023-04-29T15:45:21.767-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-04-29T15:45:21.778-0300] {taskinstance.py:1321} INFO - Marking task as SUCCESS. dag_id=climate_dag, task_id=mkdir, execution_date=20230417T000000, start_date=20230429T184521, end_date=20230429T184521
+[2023-04-29T15:45:21.826-0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-29T15:45:21.837-0300] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-04-29T15:50:36.489-0300] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2023-04-29T15:50:36.494-0300] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2023-04-29T15:50:36.494-0300] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-29T15:50:36.494-0300] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-29T15:50:36.494-0300] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-29T15:50:36.503-0300] {taskinstance.py:1303} INFO - Executing <Task(BashOperator): mkdir> on 2023-04-17 00:00:00+00:00
+[2023-04-29T15:50:36.507-0300] {standard_task_runner.py:55} INFO - Started process 22469 to run task
+[2023-04-29T15:50:36.510-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'climate_dag', 'mkdir', 'scheduled__2023-04-17T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/climate_data.py', '--cfg-path', '/tmp/tmpien5covn']
+[2023-04-29T15:50:36.511-0300] {standard_task_runner.py:83} INFO - Job 15: Subtask mkdir
+[2023-04-29T15:50:36.542-0300] {task_command.py:388} INFO - Running <TaskInstance: climate_dag.mkdir scheduled__2023-04-17T00:00:00+00:00 [running]> on host nicholas10-ThinkPad-E14-Gen-3
+[2023-04-29T15:50:36.577-0300] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=climate_dag
+AIRFLOW_CTX_TASK_ID=mkdir
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-17T00:00:00+00:00
+[2023-04-29T15:50:36.578-0300] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-04-29T15:50:36.578-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p "/home/nicholas10/airflow/week=2023-04-24"']
+[2023-04-29T15:50:36.587-0300] {subprocess.py:86} INFO - Output:
+[2023-04-29T15:50:36.589-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-04-29T15:50:36.599-0300] {taskinstance.py:1321} INFO - Marking task as SUCCESS. dag_id=climate_dag, task_id=mkdir, execution_date=20230417T000000, start_date=20230429T185036, end_date=20230429T185036
+[2023-04-29T15:50:36.643-0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-29T15:50:36.655-0300] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check
