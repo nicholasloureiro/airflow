@@ -2121,3 +2121,25 @@ ModuleNotFoundError: No module named 'kubernetes'
 [2023-04-29T16:23:49.930-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:23:49.930-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
 [2023-04-29T16:23:49.930-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
 [2023-04-29T16:23:49.936-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-04-29T16:24:31.706-0300] {processor.py:153} INFO - Started process (PID=28963) to work on /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-29T16:24:31.707-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-29T16:24:31.707-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:24:31.707-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-29T16:24:31.725-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:24:31.724-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-29T16:24:31.725-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:24:31.725-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-29T16:24:31.725-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-29T16:24:31.732-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-04-29T16:25:13.614-0300] {processor.py:153} INFO - Started process (PID=29080) to work on /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-29T16:25:13.615-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-29T16:25:13.615-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:25:13.615-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-29T16:25:13.627-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:25:13.627-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-29T16:25:13.627-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:25:13.627-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-29T16:25:13.627-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-29T16:25:13.633-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds

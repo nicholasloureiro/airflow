@@ -973,3 +973,8 @@
 [2023-04-29T16:24:16.547-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:24:16.547-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2023-04-29T16:24:16.551-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2023-04-29T16:24:16.560-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2023-04-29T16:24:59.334-0300] {processor.py:153} INFO - Started process (PID=29042) to work on /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-04-29T16:24:59.341-0300] {processor.py:743} INFO - Processing file /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-04-29T16:24:59.342-0300] {logging_mixin.py:137} INFO - [2023-04-29T16:24:59.342-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-04-29T16:24:59.344-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-04-29T16:24:59.350-0300] {processor.py:175} INFO - Processing /home/nicholas10/airflow/dataengvenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
